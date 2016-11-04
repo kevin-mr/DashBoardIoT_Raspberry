@@ -1,0 +1,11 @@
+{
+  "name": "RaspberryServer",
+  "version": "1.0.0",
+  "scripts" : {
+  	"start":"node server.js"
+  },
+  "dependencies" : {
+  	"express" : "^4.7.1",
+  	"socket.io-client": "^1.4.5"
+    }
+}

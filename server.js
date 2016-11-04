@@ -6,6 +6,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var io = require('socket.io-client')('http://dashboardiotkvvn.azurewebsites.net/');
 
+app.use(express.static('public'));
 app.use(bodyParser.json());
 
 app.post('/', function (request, response) {
